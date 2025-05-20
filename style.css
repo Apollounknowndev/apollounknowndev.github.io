@@ -1,20 +1,45 @@
 html {
-  background-color: #141414;
-  padding: 5px;
+  background-image: 
+    radial-gradient(rgb(201, 99, 168) 2px, transparent 2px),
+    radial-gradient(rgb(56, 129, 177) 2px, transparent 2px);
+  background-size: 32px 32px;
+  background-position: 
+    0px 0px,
+    16px 16px;
+  background-color: #2b2332;
+  padding: 15px;
+  padding-left: 15px;
 }
 
 body {
-  background-color: #2a2a2a;
-  border-radius: 10px;
-
-  font-family: 'Trebuchet MS';
+  font-size: 16px;
+  font-family: 'Comic Sans MS', sans-serif;
   color: gainsboro;
-  padding: 1px;
-  padding-left: 12px;
 }
 
-p {
-  font-size: 16px;
+a {
+  color: cornflowerblue;
+}
+
+header {
+  background-color: #542d71;
+  border: 4px solid #422759;
+  padding: 1px;
+  padding-left: 12px;
+  border-radius: 20px;
+}
+
+section {
+  background-color: #402a52;
+  border: 4px solid #2d1f39;
+  margin-top: 10px;
+  padding: 1px;
+  padding-left: 12px;
+  border-radius: 20px;
+}
+
+img {
+  padding-left: 15px;
 }
 
 nav ul {
@@ -34,17 +59,9 @@ a.title {
 }
 
 a.link {
-  color: aqua;
-}
-
-a.link:hover {
-  color: deepskyblue;
-}
-
-a:visited {
   color: orchid;
 }
 
-a:hover:visited {
+a.link:hover {
   color: mediumpurple;
 }
