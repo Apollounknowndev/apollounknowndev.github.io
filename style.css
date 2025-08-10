@@ -11,9 +11,15 @@ html {
   padding-left: 15px;
 }
 
+@font-face {
+  font-family: FunnelDisplay;
+  src: url(assets/FunnelDisplay.ttf);
+  font-weight: 550;
+}
+
 body {
   font-size: 16px;
-  font-family: 'Comic Sans MS', 'Chalkboard', sans-serif;
+  font-family: FunnelDisplay, sans-serif;
   color: gainsboro;
 }
 
@@ -29,21 +35,24 @@ header {
   border-radius: 20px;
 }
 
-section {
+.box {
   background-color: #402a52;
-  border: 4px solid #2d1f39;
+  border: 4px solid #372547;
+  text-decoration: none;
   margin-top: 10px;
-  padding: 1px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding: 15px;
   border-radius: 20px;
 }
 
-.post {
-  font-weight: 2200;
+a.box {
+  font-size: 20px;
+  width: 100%;
 }
 
 .date {
+  font-size: 16px;
+  color: #aaa;
+  display: flex;
   text-align: right;
 }
 
